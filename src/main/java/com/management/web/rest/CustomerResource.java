@@ -48,6 +48,7 @@ public class CustomerResource {
         return getAllCustomers();
     }
 
+
     @PutMapping("/customer")
     @ApiOperation(value = "updateCustomer")
     public ResponseEntity<?> updateCustomer(@RequestBody Customer customer){
